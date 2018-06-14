@@ -63,10 +63,8 @@ def winner(board)
   end
 
   if X_winner(winner_chars) == true
-    puts "X"
     return "X"
   elsif O_winner(winner_chars) == true
-    puts "O"
     return "O"
   end
 end
